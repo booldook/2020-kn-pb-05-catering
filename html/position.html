@@ -17,19 +17,19 @@
 	<title>Position을 배워보자</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
-		.wrapper {max-width: 800px; margin: 0 auto; border: 20px solid black; background-color: #999; position: relative;}
-		.second {max-width: 1000px; height: 500px; margin: 0 auto; background-color: orange;}
-		.box {width: 200px; height: 200px;}
+		.wrapper {max-width: 800px; height: 1500px; margin: 0 auto; border: 20px solid black; background-color: #999; position: relative;}
+		.box {width: 200px; height: 200px; color: #fff; font-size: 30px;}
 		#box1 {position: absolute; width: 150px; height: 150px; 
-			top: 20px; right: -190px;}
+			bottom: 20px; right: -190px;}
+		#box2 {position: fixed; top: 0; left: 0; z-index: 3;}
+		#box3 {position: absolute; z-index: 2;}
 	</style>
 </head>
 <body>
 	<div class="wrapper">
-		<div id="box1" class="box" style="background-color: red;"></div>
-		<div id="box2" class="box" style="background-color: green;"></div>
-		<div id="box3" class="box" style="background-color: blue;"></div>
+		<div id="box1" class="box" style="background-color: red;">box1</div>
+		<div id="box2" class="box" style="background-color: green;">box2</div>
+		<div id="box3" class="box" style="background-color: blue;">box3</div>
 	</div>
-	<div class="second"></div>
 </body>
 </html>
