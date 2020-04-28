@@ -1,0 +1,35 @@
+<!--  
+	- External 방식(우선순위-하)
+	<link rel="stylesheet" href="">
+	
+	- Internal 방식(우선순위-중)
+	<style>
+	</style>
+
+	- inline 방식(우선순위-상)
+	<div style="width: 100%;"></div>
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Position을 배워보자</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		.wrapper {max-width: 800px; margin: 0 auto; border: 20px solid black; background-color: #999; position: relative;}
+		.second {max-width: 1000px; height: 500px; margin: 0 auto; background-color: orange;}
+		.box {width: 200px; height: 200px;}
+		#box1 {position: absolute; width: 150px; height: 150px; 
+			top: 20px; right: -190px;}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="box1" class="box" style="background-color: red;"></div>
+		<div id="box2" class="box" style="background-color: green;"></div>
+		<div id="box3" class="box" style="background-color: blue;"></div>
+	</div>
+	<div class="second"></div>
+</body>
+</html>

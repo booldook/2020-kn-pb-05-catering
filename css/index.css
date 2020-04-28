@@ -11,7 +11,7 @@ body {height: 10000px;}
 
 /********** header ***********/
 .header {font-family: 'Noto Serif', serif; padding: 8px 16px; 
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); position: fixed; width: 100%; background-color: #fff;}
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); position: fixed; width: 100%; background-color: #fff; z-index: 9;}
 .logo {float: left; font-size: 16px; font-weight: normal; padding: 8px 16px;}
 .logo:hover {background-color: #ccc; cursor: pointer;}
 .navi-wrap {float: right;}
@@ -19,7 +19,8 @@ body {height: 10000px;}
 .navi:hover {background-color: #ccc; cursor: pointer;}
 
 /********** main-wrap ***********/
-.main-wrap {text-align: center;}
+.main-wrap {max-width: 1600px; margin: 0 auto; text-align: center; position: relative;}
+.main-wrap > .title {font-size: 36px; color: #666; position: absolute; bottom: 30px; left: 60px;}
 
 /********** about-wrap ***********/
 
