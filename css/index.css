@@ -12,7 +12,7 @@ body {height: 10000px;}
 .float-rt {width: 50%; float: right; padding-left: 16px;}
 .page-title {text-align: center; font-size: 36px; font-family: 'Open Sans', sans-serif; letter-spacing: 5px; font-weight: normal; padding: 24px 0;}
 .page-slogan {text-align: center; font-size: 18px; font-family: 'Open Sans', sans-serif; letter-spacing: 5px; font-weight: lighter; padding: 24px 0;}
-
+.op70 {opacity: 0.7;}
 
 /********** header ***********/
 .header {font-family: 'Noto Serif', serif; padding: 8px 16px; 
@@ -36,8 +36,9 @@ body {height: 10000px;}
 
 /********** menu-wrap ***********/
 .menu-wrap {border-bottom: 1px solid #ccc;}
-.menus {width: 50%; float: left;}
-.page
+.menu-list {margin-bottom: 30px;}
+.menu-title {padding: 20px 0; letter-spacing: 5px; font-size: 18px; font-family: 'Open Sans', sans-serif;}
+.menu-desc {font-family: 'Noto Serif', serif; color: #999; font-size: 14px;}
 
 /********** contact-wrap ***********/
 
