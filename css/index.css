@@ -41,7 +41,14 @@ body {height: 10000px;}
 .menu-desc {font-family: 'Noto Serif', serif; color: #999; font-size: 14px;}
 
 /********** contact-wrap ***********/
-
+.contact-wrap .page-title {text-align: left;}
+.contact-wrap p {padding: 16px 0; line-height: 150%; font-size: 14px; font-family: 'Noto Serif', serif;}
+.contact-wrap .address {color: #7da4a8; font-size: 18px;}
+.contact-form input, .contact-form button {font-family: 'Noto Serif', serif;}
+.contact-form input {padding: 16px; width: 100%; border: none; border-bottom: 1px solid #ccc;}
+.form-list {padding: 12px 0;}
+.contact-form .bt-send {padding: 12px 16px; background-color: #eee; border: none;}
+.contact-form .bt-send:hover {background-color: #ccc;}
 
 /********** footer ***********/
 
