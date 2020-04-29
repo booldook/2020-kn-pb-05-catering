@@ -7,6 +7,7 @@ font-family: 'Noto Serif', serif;
 body {height: 10000px;}
 
 /********** common ***********/
+.wrapper {width: 1100px; padding: 80px 16px; margin: auto;}
 
 
 /********** header ***********/
@@ -23,6 +24,14 @@ body {height: 10000px;}
 .main-wrap > .title {font-size: 36px; color: #666; position: absolute; bottom: 30px; left: 60px;}
 
 /********** about-wrap ***********/
+.about-wrap {border-bottom: 1px solid #ccc;}
+.photos {width: 50%; float: left; padding-right: 16px;}
+.abouts {width: 50%; float: right; padding-left: 16px;}
+.page-title {text-align: center; font-size: 36px; font-family: 'Open Sans', sans-serif; letter-spacing: 5px; font-weight: normal; padding: 24px 0;}
+.page-slogan {text-align: center; font-size: 18px; font-family: 'Open Sans', sans-serif; letter-spacing: 5px; font-weight: lighter; padding: 24px 0;}
+.page-cont {line-height: 150%; font-family: 'Noto Serif', serif;}
+.page-cont.cont1 {margin-bottom: 24px;}
+.page-cont.cont2 {color: #999;}
 
 
 /********** menu-wrap ***********/
