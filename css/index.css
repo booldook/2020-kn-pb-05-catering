@@ -4,8 +4,6 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Noto Serif', serif; 
 */
 
-body {height: 10000px;}
-
 /********** common ***********/
 .wrapper {width: 1100px; padding: 80px 16px; margin: auto;}
 .float-lt {width: 50%; float: left; padding-right: 16px;}
@@ -51,4 +49,5 @@ body {height: 10000px;}
 .contact-form .bt-send:hover {background-color: #ccc;}
 
 /********** footer ***********/
-
+.footer {background-color: #eee; padding: 60px 0; text-align: center; font-size: 14px; font-family: 'Noto Serif', serif;}
+.footer a {color: #000;}
