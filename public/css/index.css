@@ -59,10 +59,11 @@ font-family: 'Noto Serif', serif;
 	.main-wrap > .title {font-size: 5vw; bottom: 4vw; left: 7vw;}
 	.photos.float-rt {width: 100%; padding-left: 0;}
 	.menus.float-lt {width: 100%;}
+	.abouts .cont2 {display: none;}
 }
 
 @media screen and (max-width: 575px) {
 	.photos.float-lt {display: none;}
 	.abouts.float-rt {width: 100%; padding-left: 0;}
-	.abouts .cont2 {display: none;}
+	.abouts .cont2 {display: block;}
 }
