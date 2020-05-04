@@ -52,3 +52,17 @@ font-family: 'Noto Serif', serif;
 .footer {background-color: #eee; padding: 60px 0; text-align: center; font-size: 14px; font-family: 'Noto Serif', serif;}
 .footer a {color: #000;}
 .footer a:hover {color: #338557;}
+
+
+@media screen and (max-width: 767px) {
+	.navi-wrap {display: none;}
+	.main-wrap > .title {font-size: 5vw; bottom: 4vw; left: 7vw;}
+	.photos.float-rt {width: 100%; padding-left: 0;}
+	.menus.float-lt {width: 100%;}
+}
+
+@media screen and (max-width: 575px) {
+	.photos.float-lt {display: none;}
+	.abouts.float-rt {width: 100%; padding-left: 0;}
+	.abouts .cont2 {display: none;}
+}
